@@ -1,0 +1,13 @@
+<!DOCTYPE html>   <html>   <head>   <meta http-equiv="Content-Type" content="tExt/html; charset=UTF-8">   <title>baidu.array.hash</title>   <link type="text/css" rel="stylesheet" href="baidu_array_hash/default.css"/>   <script type="text/JavaScript" src="../js/download/Tangram.js"></script>   <script type="text/javascript" src="../js/fragment/Tangram-component/src/import.php?f=baidu.array.hash"></script>   </head>   <body>   
+<div id="resultArea">KEY数组为：[1,2,3,4,5]，VAL数组为：["a","b","c","d","e"]，取得合并后的对象hashObj，中KEY为3的元素，
+</div>   
+</body>   
+<script type="text/javascript">
+var main = function(arg0, arg1){
+	var numArr=[1,2,3,4,5];
+	var strArr=['a','b','c','d','e'];
+	var hashObj=T.array.hash(numArr,strArr);
+	baidu.dom.g('resultArea').innerHTML = "结果为：" + hashObj[3];}    
+main(); 
+</script>   
+</html>
